@@ -1,0 +1,7 @@
+Parameter,Table File 0
+FE Existence Base,Wiki articles
+FE Existence Coefficient,1
+FE Existence Similarity Function,cosine
+FE Semantics Method,BERT
+FE Semantics Coefficient,1
+FE Selection Scheme,top 100 nonstop root words ranked by Wiki articles
