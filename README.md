@@ -16,8 +16,8 @@ First, go to src/wikipedia-category-graph/.
 
 1. The first step is to build a Doc2Vec model based on the Wikipedia articles and store the article embeddings. These can be done in one step with the Gensim Doc2Vec module.
 
-	'python vectorize.py -b'
+	`python vectorize.py -b`
     
 2. Next, create embeddings for news articles.
 
-    'python vectorize.py -n'
+    `python vectorize.py -n`
