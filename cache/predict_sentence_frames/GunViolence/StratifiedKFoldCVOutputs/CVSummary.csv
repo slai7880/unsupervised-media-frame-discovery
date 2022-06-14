@@ -1,0 +1,3 @@
+Set,Epochs,Batch Size,Learning Rate,Accuracy,F1
+0,6,4,"[1e-05, 2e-05]",0,0
+1,6,4,"[3e-05, 4e-05]",0,0
