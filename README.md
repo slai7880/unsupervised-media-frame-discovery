@@ -10,7 +10,7 @@ It also requires a local Wikipedia dump file which can be found [here](https://d
 
 The excution involves several steps.
 
-First, go to src/wikipedia_category_graph/.
+First, go to *src/wikipedia_category_graph/*.
 
 0. Open common.py file and change the directory paths accordingly. Especially the paths involving the key packages listed above.
 
@@ -38,13 +38,13 @@ First, go to src/wikipedia_category_graph/.
 
 	`python create_graphs.py`
 	
-Now, go to src/community_detection/.
+Now, go to *src/community_detection/*.
 
-7. Perform community detection. The results can be found in /tables/community_detection_results/.
+7. Perform community detection. The results can be found in */tables/community_detection_results/*.
 
 	`python main.py`
 	
-Return to src/wikipedia_category_graph/.
+Return to *src/wikipedia_category_graph/*.
 
 8. Perform a cross validation of the news headline frame classification using BERT. This is not part of the pipeline, but it tells how good BERT is on the task.
 
@@ -54,15 +54,15 @@ Return to src/wikipedia_category_graph/.
 
 	`python predict_sentence_frames.py -train`
 	
-10. Predict the sentence frames. The results can be found in /tables/sentence_frames/.
+10. Predict the sentence frames. The results can be found in */tables/sentence_frames/*.
 
 	`python predict_sentence_frames.py -predict`
 	
-11. Compare the community frames with the sentence ones. The results can be found in /tables/evaluation/.
+11. Compare the community frames with the sentence ones. The results can be found in */tables/evaluation/*.
 
 	`python evaluate.py`
 	
-12. Additionally, the code used to plot the figures presented is included in this repository as well. The results can be found in /figures/.
+12. Additionally, the code used to plot the figures presented is included in this repository as well. The results can be found in */figures/*.
 
 	`python create_misc_plots.py`
 	
